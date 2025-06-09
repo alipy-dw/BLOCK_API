@@ -1,0 +1,27 @@
+===============================May'28'========================================
+
+./manage.py startapp account - создание приложение "Account"
+
+./manage.py runserver - нужно для того что бы запустить django
+
+http://127.0.0.1:8000/admin/ - административная панель "/admin"
+
+http://127.0.0.1:8000 - ссылка на django 
+
+./manage.py createsuperuser - коммманда для создание юзера
+
+./manage.py makemigrations - выявляем изменение и готовим к отправке в БД
+./manage.py migrate - отправка изменении в БД
+
+#def __str__(self):
+        ; return f"{self.title} -> {self.created_at}"
+        - нужно что бы изменить имя отоброжение объекта 
+
+; class Meta:
+        ; verbose_name = "Пост"
+        ; verbose_name_plural = 'Посты'
+        - для дополнительных изменении 'verbose '
+        Класс 'Meta' - обязательно название и именно внутри Post
+        Обязатеьные атрибуты:
+        'verbose_name'
+        'verbose_name_plural'
